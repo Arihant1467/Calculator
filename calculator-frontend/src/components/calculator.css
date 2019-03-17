@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500');
+.calculator-btn {
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0);
+  font-style: bold;
+  border: 1px solid transparent;
+  border-radius: 5px
+}
+
+.row-color {
+  background-color: #DCDCDC;
+}
+
+.text-area-color {
+  background-color: #40E0D0;
+}
+
+.remove-bg-input {
+  border: none;
+  border-width: 0;
+  box-shadow: none;
+  background: rgba(0, 0, 0, 0);
+  outline: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.calculator-btn:hover {
+  border: 1px solid #2F4F4F;
+}
+
+.calculator-btn:focus{
+  outline: none;
+}
